@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;     
+}
+
+body {}
+
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Noto Sans JP';
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.sessao{
+    width: 100vw;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    border: solid 5px;
+}
+
+.div-imagem, .div-info {
+    width: 50%;
+    height: 500px;      
+    max-height: 500px;
+    border: solid 5px;
+    border-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 20px;
+}
+
+.div-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+p{
+    font-family: 'Noto Sans JP';
+    font-size: 16px;    
+    margin-bottom: 20px;
+}
+h2{
+    font-family: 'Noto Sans JP';
+    font-size: 27px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: rgb(255, 0, 0);
+}
+
+.info-datalhes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.texto-secundario {
+    color: rgb(163, 7, 7);
+}
+
+@media screen and (min-width: 601px) {
+    sessao{
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        display: block;
+        margin-left: 50px;
+    }
+    .container {
+        display: block;
+        margin: 0 auto;
+    }
+    .div-imagem, .div-info {
+        width: 100%;
+    }
+    .div-imagem {
+        margin: 0 auto;
+        padding: 0;
+        
+    }
+    .sessao {
+        margin: 0 auto;
+    }
+}
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+        
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Noto Sans JP';
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+#aventador-imagem{
+    background-image: url('../imagem/carro-1.jpg');
+}
+#la-voiture-imagem{
+    background-image: url('../imagem/carro\ mais\ carro.webp');
+}
+#camaro-imagem{
+    background-image: url('../imagem/camaro.jpeg');
+}
+#huracan-imagem{
+    background-image: url('../imagem/huracan.jpg');
+}
+#r8-imagem{
+    background-image: url('../imagem/audi\ r8.jpg');
+}
+#porche-imagem{
+    background-image: url('../imagem/porche\ boxter\ bb.jpg');
+}
+#bmw-imagem{
+    background-image: url('../imagem/bmw.jpg');
+}
+#p1-imagem{
+    background-image: url('../imagem/mclaren\ p1.jpeg');
+}
+#gtr-imagem{
+    background-image: url('../imagem/gtr.jpg');
+}
+#centenario-imagem{
+    background-image: url('../imagem/lamborghini-centenario-.jpg');
+}
+#one-imagem{
+    background-image: url('../imagem/one1.jpg');
+}
+#chiron-imagem{
+    background-image: url('../imagem/2021-bugatti-chiron-super-sport.jpg');
+}
+#uros-imagem{
+    background-image: url('../imagem/lamborghini-uros.jpg');
+}
+#venom-imagem{
+    background-image: url('../imagem/hennessey-venom-gt-1\(1\).jpg');
+}
+#veneno-imagem{
+    background-image: url('../imagem/lamborghini-veneno-.jpg');
+}
+#ferrari-imagem{
+    background-image: url('../imagem/italia.jpg');
+}
+#galardo-imagem{
+    background-image: url('../imagem/lamborghini-galardo.jpeg');
+}
+#i8-imagem{
+    background-image: url('../imagem/bmw-i8.jpg');
+}
+#ford-imagem{
+    background-image: url('../imagem/ford-gt.jpeg');
+}
+
+.sessao{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    border: solid 5px;
+}
+
+.div-imagem, .div-info {
+    width: 50%;
+    height: 500px;      
+    max-height: 500px;
+    border: solid 5px;
+    border-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 20px;
+}
+
+
+.container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+p{
+    font-family: 'Noto Sans JP';
+    font-size: 16px;    
+    margin-bottom: 20px;
+}
+h2{
+    font-family: 'Noto Sans JP';
+    font-size: 27px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.info-datalhes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.texto-secundario {
+    color: rgb(163, 7, 7);
+}*/
